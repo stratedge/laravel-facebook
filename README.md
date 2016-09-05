@@ -8,7 +8,7 @@ First, include the library with Composer:
 
 ```sh
 composer config repositories.laravel-facebook vcs https://github.com/stratedge/laravel-facebook.git
-composer require stratedge/laravel-facebook
+composer require stratedge/laravel-facebook:dev-master
 ```
 
 Next, add the service provider to your `config/app.php` file:
