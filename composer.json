@@ -1,0 +1,22 @@
+{
+    "name": "stratedge/laravel-facebook",
+    "description": "A simple Laravel service provider for the Facebook Graph SDK",
+    "type": "library",
+    "require": {
+        "facebook/graph-sdk": "^5.3",
+        "illuminate/support": "^5.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jarret Byrne",
+            "email": "jarret@solvomedia.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Stratedge\\LaravelFacebook\\": "src/"
+        }
+    }
+}
